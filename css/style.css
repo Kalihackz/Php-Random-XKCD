@@ -1,0 +1,124 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: aquamarine;
+}
+
+.header{
+    text-align: center;
+}
+
+.parent{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.emailDiv{
+    background-color: burlywood;
+    border: 2px solid red;
+    /* display: inline-block; */
+    padding: 30px;
+    margin-top: 5%;
+    display: flex;
+    flex-direction: column;
+}
+
+input{
+    font-weight: bold;
+    font-size: 15px;
+    height: 30px;
+}
+
+p{
+    font-weight: bold;
+    font-size: 17px;
+}
+
+button{
+    font-weight: bold;
+    font-size: 20px;
+}
+
+button:hover{
+    background-color: yellow;
+    cursor: pointer;
+}
+
+.divEle{
+    justify-content: center;
+}
+
+
+/* main{
+    height:100vh;
+} */
+
+
+nav div{
+    display:inline-block;
+}
+
+
+nav{
+    background-color:black;
+    display:flex;
+    justify-content:space-between;
+}
+
+
+nav ul li{
+    display:inline-block;
+    padding: 15px 20px;
+}
+
+nav ul li a{
+    text-decoration: none;
+    padding:10px 7px;
+    color: white;
+}
+
+nav ul li a:hover{
+    background-color: rgb(47, 0, 255);
+    color:rgb(1, 184, 245);
+}
+
+.title{
+    color: white;
+    display: inline-block;
+    padding: 14px;
+}
+
+.navbar{
+    display:inline-block;
+}
+
+
+.active{
+    color: yellow;
+}
+
+.center{
+    text-align: center;
+}
+
+@media only screen and (max-width: 700px) {
+    nav{
+        display:flex;
+        flex-direction: column;
+    }
+
+    nav .title{
+        display:flex;
+        justify-content: center;
+    }
+    
+    .navbar ul{
+        display:flex;
+        justify-content: center;
+    }
+
+  }

@@ -17,14 +17,14 @@ if(empty(strip_tags($_POST['codeInp']))){
   $cookie_name = "FailedReason";
   $cookie_value = "Empty Code Parameter";
   setcookie($cookie_name, $cookie_value, time() + (5), "/"); // 86400 = 1 day
-  header('Location: https://bolder-exclusive-stargazer.glitch.me/verify.php');
+  header('Location: https://php-xkcd.herokuapp.com/verify.php');
   exit;
 }
 if(empty(strip_tags($_POST['email']))){
   $cookie_name = "FailedReason";
   $cookie_value = "Empty Email Parameter";
   setcookie($cookie_name, $cookie_value, time() + (5), "/"); // 86400 = 1 day
-  header('Location: https://bolder-exclusive-stargazer.glitch.me/verify.php');
+  header('Location: https://php-xkcd.herokuapp.com/verify.php');
   exit;
 }
 
@@ -46,7 +46,7 @@ if (empty($_COOKIE['code']))
   $cookie_name = "FailedReason";
   $cookie_value = "Empty Cookie Parameter";
   setcookie($cookie_name, $cookie_value, time() + (5), "/"); // 86400 = 1 day
-  header('Location: https://bolder-exclusive-stargazer.glitch.me/verify.php');
+  header('Location: https://php-xkcd.herokuapp.com/verify.php');
   exit;
 }
 if ($_COOKIE['code'] === hash('sha256', strip_tags($_POST['codeInp'])))

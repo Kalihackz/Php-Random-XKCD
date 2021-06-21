@@ -9,7 +9,7 @@
 
 <p align="center">
     <img src="https://img.shields.io/badge/php version-v7.0.33-blueviolet" alt="Current php version" />
-    <img src="https://img.shields.io/badge/uptime-95%25-brightgreen" alt="Follow @reactnative" />
+    <img src="https://img.shields.io/badge/uptime-95%25-brightgreen" alt="Uptime 95%" />
 </p>
 
  <br>
@@ -17,6 +17,7 @@
 <img src="https://via.placeholder.com/1270x120/0d1117/ffb300?text=Live+URL" />
 
 <p align="center"><strong>https://bolder-exclusive-stargazer.glitch.me/ </strong></p>
+<p align="center"><strong>Alternative URL : https://php-xkcd.herokuapp.com/ </strong></p>
 
 <br />
 
@@ -67,6 +68,8 @@ Similarly for unsubscribing he has to verify his email id , then only he will be
 
 <p align="center">
   <img src="https://user-images.githubusercontent.com/64020453/122251160-e46c4480-cee7-11eb-87e0-ec80a7171ce8.png" alt="Glitch" />
+  
+  <img src="https://user-images.githubusercontent.com/64020453/122761848-4e0a9b00-d2ba-11eb-8aea-edbc568c3147.png" width="190px" alt="Heroku" />
 </p>
 
 <h3 align="center">Database Used</h3>

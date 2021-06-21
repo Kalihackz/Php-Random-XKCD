@@ -27,7 +27,7 @@ if(!$arr) {
 }
 else{
     foreach ($arr as $value) {
-        emailMessage($value,'Random XKCD comics every five minutes.','Random XKCD comics every five minutes.','<h1>Random XKCD comics every five minutes.</h1>You can unsubscribe by clicking this <a href="https://bolder-exclusive-stargazer.glitch.me/">LINK</a><br><br><img src="'.$image.'">',$image);
+        emailMessage($value,'Random XKCD comics every five minutes.','Random XKCD comics every five minutes.','<h1>Random XKCD comics every five minutes.</h1>You can unsubscribe by clicking this <a href="https://php-xkcd.herokuapp.com/">LINK</a><br><br><img src="'.$image.'">',$image);
     }
 }
 }

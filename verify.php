@@ -45,12 +45,12 @@ function emailMessage($to,$sub,$text,$html) {
 }
 
 if(empty(strip_tags($_POST['email']))){
-    header('Location: https://bolder-exclusive-stargazer.glitch.me/');
+    header('Location: https://php-xkcd.herokuapp.com/');
     exit;
 }
 
 if(empty(strip_tags($_POST['reqType']))){
-    header('Location: https://bolder-exclusive-stargazer.glitch.me/');
+    header('Location: https://php-xkcd.herokuapp.com/');
     exit;
 }
 
@@ -113,7 +113,7 @@ else if (strip_tags($_POST['reqType']) == 'unsub')
 }
 else
 {
-    header('Location: https://bolder-exclusive-stargazer.glitch.me/');
+    header('Location: https://php-xkcd.herokuapp.com/');
     exit;
 }
 ?>
